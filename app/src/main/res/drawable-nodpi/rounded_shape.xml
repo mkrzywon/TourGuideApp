@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <solid
+        android:color="@color/rounded_shape">
+    </solid>
+
+    <padding
+        android:left="@dimen/rounded_shape"
+        android:top="@dimen/rounded_shape"
+        android:right="@dimen/rounded_shape"
+        android:bottom="@dimen/rounded_shape">
+    </padding>
+
+    <corners
+        android:radius="@dimen/rounded_shape_radius">
+    </corners>
+
+</shape>

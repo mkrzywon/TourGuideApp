@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <stroke
+        android:width="@dimen/stroke_width_details_fragment"
+        android:color="@color/frame_dialog_fragment" />
+    <corners android:radius="@dimen/standard" />
+    <solid android:color="@color/white" />
+</shape>

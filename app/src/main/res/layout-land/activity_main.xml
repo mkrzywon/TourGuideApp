@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scene"
+    style="@style/activity_main_landscape"
+    android:baselineAligned="false">
+
+    <LinearLayout
+        android:layout_width="@dimen/zero"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tour_guide_text"
+            style="@style/head_text"
+            android:paddingTop="@dimen/standard"
+            android:text="@string/legnica" />
+
+        <TextView
+            android:id="@+id/title_main"
+            style="@style/head_title"
+            android:layout_marginTop="@dimen/standard"
+            android:text="@string/tour_guide" />
+
+        <ImageButton
+            android:id="@+id/categoryButton"
+            style="@style/category_button_landscape"
+            android:contentDescription="@string/enter_button"
+            android:src="@drawable/enter_button" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="@dimen/zero"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <View
+            android:id="@+id/center_view"
+            style="@style/view_container" />
+
+        <ImageView
+            android:id="@+id/stadium_thumbnail"
+            style="@style/stadium_thumbnail"
+            android:layout_toStartOf="@id/center_view"
+            android:contentDescription="@string/stadium_thumbnail"
+            android:src="@drawable/legnica_stadium_thumbnail" />
+
+        <ImageView
+            android:id="@+id/castle_thumbnail"
+            style="@style/castle_thumbnail"
+            android:layout_toEndOf="@id/center_view"
+            android:contentDescription="@string/castle_thumbnail"
+            android:src="@drawable/legnica_castle_thumbnail" />
+
+        <ImageView
+            android:id="@+id/cathedral_thumbnail"
+            style="@style/cathedral_thumbnail"
+            android:layout_toStartOf="@id/center_view"
+            android:contentDescription="@string/cathedral_thumbnail"
+            android:src="@drawable/legnica_cathedral_thumbnail" />
+
+        <ImageView
+            android:id="@+id/hospital_thumbnail"
+            style="@style/hospital_thumbnail"
+            android:layout_toEndOf="@id/center_view"
+            android:contentDescription="@string/hospital_thumbnail"
+            android:src="@drawable/legnica_hospital_thumbnail" />
+
+        <ImageView
+            android:id="@+id/marketplace_thumbnail"
+            style="@style/marketplace_thumbnail"
+            android:layout_alignStart="@+id/museum_thumbnail"
+            android:contentDescription="@string/marketplace_thumbnail"
+            android:src="@drawable/legnica_marketplace_thumbnail" />
+
+        <ImageView
+            android:id="@+id/museum_thumbnail"
+            style="@style/museum_thumbnail"
+            android:contentDescription="@string/museum_thumbnail"
+            android:src="@drawable/legnica_museum_thumbnail" />
+
+        <ImageView
+            android:id="@+id/park_thumbnail"
+            style="@style/park_thumbnail"
+            android:layout_toStartOf="@id/center_view"
+            android:contentDescription="@string/park_thumbnail"
+            android:src="@drawable/legnica_park_thumbnail" />
+
+        <ImageView
+            android:id="@+id/theatre_thumbnail"
+            style="@style/theatre_thumbnail"
+            android:layout_toEndOf="@id/center_view"
+            android:contentDescription="@string/theatre_thumbnail"
+            android:src="@drawable/legnica_theatre_thumbnail" />
+
+        <ImageView
+            android:id="@+id/herb"
+            style="@style/herb"
+            android:contentDescription="@string/shield"
+            android:src="@drawable/herb" />
+
+        <ImageView
+            android:id="@+id/stamp"
+            style="@style/stamp"
+            android:layout_toEndOf="@id/marketplace_thumbnail"
+            android:contentDescription="@string/stamp"
+            android:src="@drawable/certified" />
+
+        <ImageView
+            android:id="@+id/stamp_maker"
+            style="@style/stamp"
+            android:layout_toEndOf="@id/marketplace_thumbnail"
+            android:contentDescription="@string/stamp_maker"
+            android:src="@drawable/stamp_maker" />
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="list_item_height">100dp</dimen>
+    <dimen name="double_standard">32dp</dimen>
+    <dimen name="standard">16dp</dimen>
+    <dimen name="half">8dp</dimen>
+    <dimen name="quarter">4dp</dimen>
+    <dimen name="zero">0dp</dimen>
+
+    <dimen name="details_head_text">22sp</dimen>
+    <dimen name="description_dialog_fragment">16sp</dimen>
+    <dimen name="dialog_fragment_address_data">18sp</dimen>
+    <dimen name="text_main_activity">48sp</dimen>
+    <dimen name="item_list_text_height">18sp</dimen>
+    <dimen name="category_list_head_text">24sp</dimen>
+    <dimen name="category_list_description">16sp</dimen>
+
+    <dimen name="view_width_main_activity">90dp</dimen>
+    <dimen name="view_height_main_activity">140dp</dimen>
+    <dimen name="divider_item_listview_height">5dp</dimen>
+    <dimen name="item_list_height">100dp</dimen>
+    <dimen name="dialog_portrait_min_width">370dp</dimen>
+    <dimen name="dialog_landscape_min_width">250dp</dimen>
+    <dimen name="stroke_width_details_fragment">2dp</dimen>
+    <dimen name="rounded_fg">6dp</dimen>
+    <dimen name="rounded_fg_radius">14dp</dimen>
+    <dimen name="rounded_shape">5dp</dimen>
+    <dimen name="rounded_shape_radius">14dp</dimen>
+
+    <dimen name="rotation_stadium_thumb" format="integer" type="dimen">32</dimen>
+    <dimen name="rotation_castle_thumb" format="integer" type="dimen">-16</dimen>
+    <dimen name="rotation_cathedral_thumb" format="integer" type="dimen">-8</dimen>
+    <dimen name="rotation_hospital_thumb" format="integer" type="dimen">32</dimen>
+    <dimen name="rotation_marketplace_thumb" format="integer" type="dimen">8</dimen>
+    <dimen name="rotation_park_thumb" format="integer" type="dimen">-8</dimen>
+    <dimen name="rotation_theatre_thumb" format="integer" type="dimen">16</dimen>
+    <dimen name="divider_list_angle" format="integer" type="dimen">180</dimen>
+</resources>

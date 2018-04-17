@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/child_main"
+    style="@style/item_listview_main_layout">
+
+    <ListView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/item_list"
+        style="@style/item_listview_listview"
+        android:layout_marginEnd="@dimen/standard"
+        android:layout_marginStart="@dimen/standard"
+        android:divider="@drawable/item_list_divider"
+        android:dividerHeight="@dimen/divider_item_listview_height"
+        android:drawSelectorOnTop="true" />
+
+    <ImageButton
+        android:id="@+id/back_button"
+        style="@style/item_listview_button"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="@dimen/standard"
+        android:layout_marginEnd="@dimen/standard"
+        android:contentDescription="@string/back_category_button"
+        android:src="@drawable/category_back_button" />
+
+</RelativeLayout>

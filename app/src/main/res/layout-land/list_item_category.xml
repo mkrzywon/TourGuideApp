@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/head_text"
+        style="@style/list_item_category_head_text"
+        android:layout_marginTop="@dimen/standard" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/category_image"
+            style="@style/list_item_category_image_landscape"
+            android:layout_marginStart="@dimen/standard"
+            android:layout_marginTop="@dimen/half"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/category_image"
+            android:src="@drawable/category_city" />
+
+        <LinearLayout
+            android:layout_width="@dimen/zero"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/category_description"
+                style="@style/list_item_category_description"
+                android:layout_marginEnd="@dimen/standard"
+                android:layout_marginStart="@dimen/standard"
+                android:layout_marginTop="@dimen/half" />
+
+            <TextView
+                android:id="@+id/category_enter"
+                style="@style/list_item_category_enter_text"
+                android:layout_marginTop="@dimen/standard" />
+
+            <ImageButton
+                android:id="@+id/list_button"
+                style="@style/list_item_category_button"
+                android:contentDescription="@string/list_button" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

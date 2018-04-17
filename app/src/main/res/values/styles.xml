@@ -1,0 +1,438 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- App bar style -->
+    <style name="Widget.AppCompat.Light.ActionBar.TabView.Inverse." parent="Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <!-- Remove the shadow below the app bar -->
+        <item name="elevation">@dimen/zero</item>
+    </style>
+
+    <!-- Style for a tab that displays a category name -->
+    <style name="CategoryTab" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">@color/white</item>
+        <item name="tabSelectedTextColor">@color/white</item>
+        <item name="tabTextAppearance">@style/CategoryTabTextAppearance</item>
+        <item name="tabBackground">@color/tab_background_color</item>
+    </style>
+
+    <!-- Text appearance style for a category tab -->
+    <style name="CategoryTabTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:textColor">@color/category_tab_text_appearance</item>
+    </style>
+
+    <!-- Style for details dialog fragment window portrait mode-->
+    <style name="DialogFragment" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@drawable/details_fragment_background</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:minWidth">@dimen/dialog_portrait_min_width</item>
+    </style>
+
+    <!-- Style for details dialog fragment window landscape mode-->
+    <style name="DialogFragmentLandscape" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@drawable/details_fragment_background</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:minWidth">@dimen/dialog_landscape_min_width</item>
+    </style>
+
+    <!-- Styles for activity_main files -->
+    <style name="activity_main_portrait">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="activity_main_landscape">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="head_text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/komika</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">@dimen/text_main_activity</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="head_title">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/komika</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:background">@drawable/rounded_shape</item>
+        <item name="android:textSize">@dimen/text_main_activity</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="view_container">
+        <item name="android:layout_width">@dimen/view_width_main_activity</item>
+        <item name="android:layout_height">@dimen/view_height_main_activity</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:background">@color/transparent</item>
+    </style>
+
+    <style name="stadium_thumbnail">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:rotation">@dimen/rotation_stadium_thumb</item>
+    </style>
+
+    <style name="castle_thumbnail">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:rotation">@dimen/rotation_castle_thumb</item>
+    </style>
+
+    <style name="cathedral_thumbnail">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_above">@id/stadium_thumbnail</item>
+        <item name="android:rotation">@dimen/rotation_cathedral_thumb</item>
+    </style>
+
+    <style name="hospital_thumbnail">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_above">@id/castle_thumbnail</item>
+        <item name="android:rotation">@dimen/rotation_hospital_thumb</item>
+    </style>
+
+    <style name="marketplace_thumbnail">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_above">@id/center_view</item>
+        <item name="android:rotation">@dimen/rotation_marketplace_thumb</item>
+    </style>
+
+    <style name="museum_thumbnail">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_below">@id/center_view</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+
+    <style name="park_thumbnail">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_below">@id/stadium_thumbnail</item>
+        <item name="android:rotation">@dimen/rotation_park_thumb</item>
+    </style>
+
+    <style name="theatre_thumbnail">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_below">@id/castle_thumbnail</item>
+        <item name="android:rotation">@dimen/rotation_theatre_thumb</item>
+    </style>
+
+    <style name="herb">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+
+    <style name="category_button_portrait">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:background">@color/transparent</item>
+    </style>
+
+    <style name="category_button_landscape">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:background">@color/transparent</item>
+    </style>
+
+    <style name="stamp">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_above">@id/herb</item>
+    </style>
+
+    <!-- Styles for categories file -->
+    <style name="categories_main_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <!-- Styles for category_listview file -->
+    <style name="category_listview_listview">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <!-- Styles for details_for_lists files -->
+    <style name="details_lists_main_scrollview">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="details_lists_image_layout_landscape">
+        <item name="android:layout_width">@dimen/zero</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="details_lists_description_layout_landscape">
+        <item name="android:layout_width">@dimen/zero</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="details_lists_head_text_portrait">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/komika</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">@dimen/details_head_text</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="details_lists_head_text_landscape">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/komika</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">@dimen/details_head_text</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="details_lists_image">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:background">@drawable/rounded_shape</item>
+        <item name="android:foreground">@drawable/rounded_fg_details</item>
+    </style>
+
+    <style name="details_lists_image_description_portrait">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/komika</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="details_lists_image_description_landscape">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/komika</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="details_description">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/komika</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/description_dialog_fragment</item>
+    </style>
+
+    <style name="details_lists_back_button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">bottom|center_horizontal</item>
+        <item name="android:background">@color/transparent</item>
+    </style>
+
+    <!-- Styles for details_for_lists_addresses files -->
+    <style name="details_addresses_main_scrollview">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="details_addresses_image_layout_landscape">
+        <item name="android:layout_width">@dimen/zero</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="details_addresses_description_layout_landscape">
+        <item name="android:layout_width">@dimen/zero</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="details_addresses_head_text_portrait">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/komika</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">@dimen/details_head_text</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="details_addresses_head_text_landscape">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/komika</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">@dimen/details_head_text</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="details_addresses_image">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:background">@drawable/rounded_shape</item>
+        <item name="android:foreground">@drawable/rounded_fg_details</item>
+    </style>
+
+    <style name="details_addresses_image_description_portrait">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/komika</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="details_addresses_image_description_landscape">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/komika</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="details_addresses_description_item">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/komika</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">@dimen/dialog_fragment_address_data</item>
+    </style>
+
+    <style name="details_addresses_back_button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">bottom|center_horizontal</item>
+        <item name="android:background">@color/transparent</item>
+    </style>
+
+    <!-- Styles for item_listview file -->
+    <style name="item_listview_main_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="item_listview_listview">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="item_listview_button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/transparent</item>
+    </style>
+
+    <!-- Styles for list_item file -->
+    <style name="list_item_image">
+        <item name="android:layout_width">@dimen/zero</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+
+    <style name="list_item_text">
+        <item name="android:layout_width">@dimen/zero</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/komika</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:textSize">@dimen/item_list_text_height</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="list_item_icon">
+        <item name="android:layout_width">@dimen/zero</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+
+    <!-- Styles for list_item_category files -->
+    <style name="list_item_category_head_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/komika</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:textSize">@dimen/category_list_head_text</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="list_item_category_image">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:background">@drawable/rounded_shape</item>
+        <item name="android:foreground">@drawable/rounded_fg</item>
+    </style>
+
+    <style name="list_item_category_image_landscape">
+        <item name="android:layout_width">@dimen/zero</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:background">@drawable/rounded_shape</item>
+        <item name="android:foreground">@drawable/rounded_fg</item>
+    </style>
+
+    <style name="list_item_category_description">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/komika</item>
+        <item name="android:textColor">@color/category_description_color</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:textSize">@dimen/category_list_description</item>
+    </style>
+
+    <style name="list_item_category_enter_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/komika</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
+    <style name="list_item_category_button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:background">@color/transparent</item>
+    </style>
+</resources>

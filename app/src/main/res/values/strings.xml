@@ -1,0 +1,355 @@
+<resources>
+    <string name="app_name">TourGuideApp</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="category_history">History</string>
+    <string name="category_city">City</string>
+    <string name="category_accommodation">Accommodation</string>
+    <string name="category_food">Food</string>
+    <string name="category_nature">Nature</string>
+    <string name="category_tours">Tours</string>
+
+    <string name="tour_guide">Tour Guide</string>
+    <string name="categories">Categories</string>
+    <string name="category_enter">Enter the category</string>
+
+    <string name="history_of_legnica">History of Legnica</string>
+    <string name="city_outlook">City outlook</string>
+    <string name="accommodation">Accommodation</string>
+    <string name="food_facilities">Food facilities</string>
+    <string name="city_nature">City nature</string>
+    <string name="regional_trips">Regional trips</string>
+
+    <string name="category_history_description">Owing to wealthy history, Legnica became an old city with unique atmosphere.
+        Above 1000 years of official existence left a great imprint on it’s culture and architecture. During 500 years it was ruled by Piast dynasty.
+        Apart from that it was under rule of Czech dynasty, Habsburgs, Prussia and Germany.</string>
+    <string name="category_city_description">Between 1 June 1975 and 31 December 1998 Legnica became the capital of the Voivodeship.
+        Now it’s the seat of the county and since 1992 it is also the seat of Diocese. Currently about 100000 inhabitants live here.
+        In 1950s and 1960 copper and nickel deposits began to be excavated, changing totally regional economy.</string>
+    <string name="category_accommodation_description">Legnica offers a wide variety od accommodation places for all visitors and all budgets.
+        Situated mainly within the center area of the city will satisfy almost everyone. </string>
+    <string name="category_food_description">There’s a great variety of restaurants, pubs or inns in Legnica. 
+        There are locals offering typical polish meals and places where you can eat pizza or oriental food. 
+        All tastes and budgets will be satisfied. </string>
+    <string name="category_nature_description">Legnica is admired for it’s gardens and parks. The city can boast with above 700 hectares of green space which is about 10% of it’s whole surface.
+        In the center of the city there’s a huge 58 hectares park with small palm house and nice pond. Spare time can be also spent on the Kaczawa river banks.</string>
+    <string name="category_trips_description">Well communication facilities make Legnica a good place to start trips around region of Lower Silesia.
+        This historical area is full of very interesting places to visit. Below you can find just a few 1 day or weekend trips.
+        However I assure you that there is much more place worth seeing. </string>
+
+    <string name="h1">Early history</string>
+    <string name="h2">First Slavic tribes</string>
+    <string name="h3">Battle of Legnica</string>
+    <string name="h4">Duchy of Legnica</string>
+    <string name="h5">Holy Roman Empire</string>
+    <string name="h6">Second battle of Legnica</string>
+    <string name="h7">Congress of Vienna</string>
+    <string name="h8">Treaty of Versailles</string>
+    <string name="h9">Potsdam conference</string>
+    <string name="h10">Cold War</string>
+
+    <string name="h1_desc">First documented historical sources of settlement come from this place about 1850 years ago.
+        A few hundred years later before written evidences – there was a small castle situated in the east part hills.
+        The settlement belonged to the Lusatian culture.
+        In the Romanian times the city was called Lugidunum and existed as the capital of tribe Lugii. It was situated on the antic map of Ptolemy.</string>
+    <string name="h2_desc">Slavic tribes moved into that area around 8th century. Official reference in the cronicles come from 1004.
+        The city name is firstly mentioned in 1149 in the document of High Duke of Poland Boleslaw IV the Curly.
+        Most likely Legnica became his residence. The city started to grow being the fundamental point of trading paths for Europe of Middle Ages.</string>
+    <string name="h3_desc">Legnica became famous city because of the great battle at Legnickie Pole. It was the time of Mongol invasion of Europe.
+        Combined armies of polish duke Henry II the Pious of Silesia, Bavarian miners, Czech troops and military orders were defeated.
+        Mongols killed Henry and destroyed united forces. As a result his coutry collapsed.</string>
+    <string name="h4_desc">At the beginning of 14th century Legnica became the capital of the Duchy. It was one of the most important cities in Central Europe
+        with population reaching almost 16000 inhabitants. Quick growth of the city started after the discovery of gold in the Kaczawa River between Legnica and Zlotoryja.
+        This great city expansion stopped after a huge fire which totally devastated all wooden buildings.</string>
+    <string name="h5_desc">During 14th century Legnica became vassal of the Kingdom of Bohemia and it was absorbed by Holy Roman Empire.
+        Around 1522 the citizens converted into Lutheranism. After the death of King Louis II of Hungary and Bohemia Legnica became the part of the Habsburg Monarchy of Austria.</string>
+    <string name="h6_desc">In 1742 Legnica, along with most of Silesia, became the part of Kingdom of Prussia.
+        It was a result of King Frederick the Great\'s victory over Austria  in the War of the Austrian Succession.
+        Seven years’s war bringed in 1760 the great Battle of Legnica where Frederick’s defeated an Austrian army. </string>
+    <string name="h7_desc">In 1813 Prussian army led by Field Marshal Blücher defeated Napoleonic forces in the Battle of Katzbach.
+        By the provisions of Congress of Vienna Legnica and the surrounding territory were absorbed by the Province of Silesia on the 1st May 1816.
+        In 1874 the city became the part of German Empire. </string>
+    <string name="h8_desc">Until 1945 by the provisions of, following Word War I, Treaty of Versailles Legnica became the part of Province of Lower Silesia.</string>
+    <string name="h9_desc">In 1945 Nazi Germany was defeated and World War II was over. Following Potsdam Conference incorporated Legnica and all east Silesia to Poland.
+        German citizens were expelled and replaced with Poles.
+        During the war the city was only slightly demaged. However until 1965 most parts of the old town buildings were destroyed, bringing rebuilt, modern form.</string>
+    <string name="h10_desc">After the World War II Soviet forces in Poland situated headquarters in Legnica. This fact left a great imprint on city’s life.
+        Now it was divided into Polish and Soviet parts. In april 1945 it is etimated that there were about 16000 Polish, 12000 German and 60000 Soviet citizens.
+        Soviets left the city finally in 1993.</string>
+
+    <string name="h1_img_desc">Lusatian culture</string>
+    <string name="h2_img_desc">Boleslaw IV the Curly</string>
+    <string name="h3_img_desc">Battle of Legnica</string>
+    <string name="h4_img_desc">gold</string>
+    <string name="h5_img_desc">Holy Roman Empire</string>
+    <string name="h6_img_desc">Battle of Legnica</string>
+    <string name="h7_img_desc">Napoleon Bonaparte</string>
+    <string name="h8_img_desc">Newspaper</string>
+    <string name="h9_img_desc">Potsdam Conference</string>
+    <string name="h10_img_desc">Graves of soviet solders</string>
+
+    <string name="c1">Cathedral of Sts. Peter and Paul</string>
+    <string name="c2">New Town Hall</string>
+    <string name="c3">Modjeska Theatre</string>
+    <string name="c4">Hospital</string>
+    <string name="c5">Piast Castle</string>
+    <string name="c6">Copper Museum of Legnica</string>
+    <string name="c7">Tenement Houses</string>
+    <string name="c8">Gas Tower</string>
+    <string name="c9">Railway Station</string>
+    <string name="c10">City Stadium</string>
+
+    <string name="c1_desc">Magnificent cathedral was built in 1333 – 1380 and in 15th century the chapels were attached to the side naves.
+        Serious rebuild occurred in 1892 – 94 when the temple received Neogotic style.In 25 March 1992 John Paul II sacrifised it as a cathedral.</string>
+    <string name="c2_desc">The Town Hall was built in neo renaissance style in 1905. Currently it is headquarters of municipality in Legnica.</string>
+    <string name="c3_desc">The building of new theatre was ready on Christmas 1842. It had 500 seat and there were always queues of ticket buyers.
+        After the World War II the theatre was totally destroyed. It started up again in 1977. In 1994 Jacek Glomb began to work as a Chief.
+        His innovative approach brought a great fame in country and on the international field.</string>
+    <string name="c4_desc">The hospital in Legnica was opened in 1989. It’s the largest employer in the city employing over 1100 people.
+        It’s divided into 24 departments with over 600 beds. It services annually over 100000 patients.</string>
+    <string name="c5_desc">A stronghold was erected in 1230s and it was one of the first such castles in Poland. The initiator of the building was Henry I the Bearded.
+        The castle was the residence for the Dukes of Legnica until 1675. It had been rebuilt several times, most significantly by Frederick II.
+        In the 19th century it was reconstructed after a fire. Currently it houses several educational institutions.</string>
+    <string name="c6_desc">It was built in 1728 in Baroque style. It contains the collections associated with excavation, processing and usage of copper.
+        Currently there are over 30000 exhibits and 8200 volumens in the library.</string>
+    <string name="c7_desc">The most probably it was built in 1574. There are 4 renaissance and 4 classical houses.
+        Stylish diversification is the effect of many reconstructions which affected these buildings during next centuries. </string>
+    <string name="c8_desc">It was founded in 1856 and in the beginning lighted about 250 lamps in the city.
+        It had been rebuilt several times, lastly in 1917 when ammonia tower was added.</string>
+    <string name="c9_desc">It has been opened in 1844 and it’s the main station wfor Legnica, being the beginning of the line to Katowice, Jerzmanice-Zdroj and Rudna.
+        It services all kinds of passing trains. Currently it has B category which means that it services annually 1 – 2 milions of passengers.</string>
+    <string name="c10_desc">It was completely rebuiled in 2005. Modernisation brought additional lights, corners, heated turf, full roofing and electronic management and control system.</string>
+
+    <string name="c1_img_desc">Cathedral of Sts. Peter and Paul</string>
+    <string name="c2_img_desc">New Town Hall</string>
+    <string name="c3_img_desc">Modjeska Theatre</string>
+    <string name="c4_img_desc">Hospital</string>
+    <string name="c5_img_desc">Piast Castle</string>
+    <string name="c6_img_desc">Copper Museum of Legnica</string>
+    <string name="c7_img_desc">Tenement Houses</string>
+    <string name="c8_img_desc">Gas Tower</string>
+    <string name="c9_img_desc">Railway Station</string>
+    <string name="c10_img_desc">City Stadium</string>
+
+    <string name="a1">Qubus Hotel</string>
+    <string name="a2">Hotel Palacyk</string>
+    <string name="a3">Kamieniczka Hotel</string>
+    <string name="a4">Sekowski Hotel</string>
+    <string name="a5">Arkadia Hotel</string>
+    <string name="a6">Gwarna Hotel</string>
+    <string name="a7">Milenium Hotel</string>
+    <string name="a8">Rezydencja Hotel</string>
+    <string name="a9">Youth Hostel</string>
+
+    <string name="a1_address">Skarbowa 2\n59220 Legnica</string>
+    <string name="a2_address">Tadeusza Kosciuszki 37\n59220 Legnica</string>
+    <string name="a3_address">Mlynarska 15_16\n59220 Legnica</string>
+    <string name="a4_address">Gliwicka 15\n59200 Legnica</string>
+    <string name="a5_address">Gliwicka 6\n59220 Legnica</string>
+    <string name="a6_address">Wjazdowa 12\n59220 Legnica</string>
+    <string name="a7_address">Chojnowska 150\n59200 Legnica</string>
+    <string name="a8_address">Stefana Okrzei 18\n59220 Legnica</string>
+    <string name="a9_address">Henryka Jordana 17\n59220 Legnica</string>
+
+    <string name="a1_www">https://www.qubushotel.com/</string>
+    <string name="a2_www">http://www.hotelpalacyk.pl/</string>
+    <string name="a3_www">http://hotelkamieniczka.pl/</string>
+    <string name="a4_www">http://www.hotelsekowski.pl/</string>
+    <string name="a5_www">http://www.hotel-arkadia.pl/</string>
+    <string name="a6_www">http://www.hotelgwarna.pl/</string>
+    <string name="a7_www">http://www.mojhotel.pl/</string>
+    <string name="a8_www">http://www.rezydencja-hotel.pl/</string>
+    <string name="a9_www">http://www.ssm.legnica.eu/</string>
+
+    <string name="a1_email">legnica@qubushotel.com</string>
+    <string name="a2_email">hotelpalacyk@hotelpalacyk.lca.pl</string>
+    <string name="a3_email">recepcja@hotelkamieniczka.pl</string>
+    <string name="a4_email">recepcja@hotelsekowski.pl</string>
+    <string name="a5_email">legnica@hotel-arkadia.pl</string>
+    <string name="a6_email">hotel@hotelgwarna.pl</string>
+    <string name="a7_email">hotel@mojhotel.pl</string>
+    <string name="a8_email">kopcza@rezydencja-hotel.pl</string>
+    <string name="a9_email">recepcjassm@legnica.eu</string>
+
+    <string name="a1_phone">Phone: 76 866 21 00</string>
+    <string name="a2_phone">Phone: 76 851 25 35</string>
+    <string name="a3_phone">Phone: 76 723 73 92</string>
+    <string name="a4_phone">Phone: 76 721 31 60</string>
+    <string name="a5_phone">Phone: 76 850 78 00</string>
+    <string name="a6_phone">Phone: 76 745 00 00</string>
+    <string name="a7_phone">Phone: 76 713 53 00</string>
+    <string name="a8_phone">Phone: 76 723 08 70</string>
+    <string name="a9_phone">Phone: 76 862 54 12</string>
+
+    <string name="a1_img_desc">Qubus Hotel</string>
+    <string name="a2_img_desc">Hotel Palacyk</string>
+    <string name="a3_img_desc">Kamieniczka Hotel</string>
+    <string name="a4_img_desc">Sekowski Hotel</string>
+    <string name="a5_img_desc">Arkadia Hotel</string>
+    <string name="a6_img_desc">Gwarna Hotel</string>
+    <string name="a7_img_desc">Milenium Hotel</string>
+    <string name="a8_img_desc">Rezydencja Hotel</string>
+    <string name="a9_img_desc">Youth Hostel</string>
+
+    <string name="f1">Tivoli Restaurant</string>
+    <string name="f2">Vis a Vis Restaurant</string>
+    <string name="f3">Tradycja Restaurant</string>
+    <string name="f4">Benvenuti in Italia Restaurant</string>
+    <string name="f5">Don Giovanni Restaurant</string>
+    <string name="f6">Efez Restaurant</string>
+    <string name="f7">Dragon Oriental Bar</string>
+    <string name="f8">Piastowska Inn</string>
+    <string name="f9">Qubus Hotel Restaurant</string>
+    <string name="f10">Rynek 10 Restaurant</string>
+
+    <string name="f1_address">Zlotoryjska 21\n59220 Legnica</string>
+    <string name="f2_address">Mlynarska 7\n59200 Legnica</string>
+    <string name="f3_address">Rynek 9\n59220 Legnica</string>
+    <string name="f4_address">Najswietszej Marii Panny 9\n59220 Legnica</string>
+    <string name="f5_address">Najswietszej Marii Panny 1\n59220 Legnica</string>
+    <string name="f6_address">Najswietszej Marii Panny 9\n59220 Legnica</string>
+    <string name="f7_address">plac Klasztorny 4\n59220 Legnica</string>
+    <string name="f8_address">Gwiezdna 4\n59220 Legnica</string>
+    <string name="f9_address">Skarbowa 2\n59220 Legnica</string>
+    <string name="f10_address">Rynek 10\n59200 Legnica</string>
+
+    <string name="f1_www">http://restauracjativoli.pl/</string>
+    <string name="f2_www">http://www.restauracja-visavis.pl/</string>
+    <string name="f3_www">http://www.tradycja.legnica.pl/</string>
+    <string name="f4_www">http://benvenuti.com.pl/</string>
+    <string name="f5_www">http://www.dongiovanni.legnica.pl/</string>
+    <string name="f6_www">http://efezpolska.pl/</string>
+    <string name="f7_www">http://dragon.legnica.pl/</string>
+    <string name="f8_www">http://www.restauracjaoberza.pl/</string>
+    <string name="f9_www">https://www.qubushotel.com/pl/restauracje/</string>
+    <string name="f10_www">http://www.rynek10.com.pl/</string>
+
+    <string name="f1_email">tivoli@iscatering.pl</string>
+    <string name="f2_email">visavis@visavis.pl</string>
+    <string name="f3_email">tradycja@animak-kopcza.pl</string>
+    <string name="f4_email">legnica@benvenuti.com.pl</string>
+    <string name="f5_email">dongiovanni@animak-kopcza.pl</string>
+    <string name="f6_email">info@efezpolska.pl</string>
+    <string name="f7_email">dragon@dragon.pl</string>
+    <string name="f8_email">oberza.piastowska@lubinpex.com.pl</string>
+    <string name="f9_email">legnica@qubushotel.com</string>
+    <string name="f10_email">rynek10@iscatering.pl</string>
+
+    <string name="f1_phone">Phone: 76 862 23 04</string>
+    <string name="f2_phone">Phone: 76 722 30 20</string>
+    <string name="f3_phone">Phone: 76 852 35 33</string>
+    <string name="f4_phone">Phone: 606 354 744</string>
+    <string name="f5_phone">Phone: 76 722 81 52</string>
+    <string name="f6_phone">Phone: 76 721 33 16</string>
+    <string name="f7_phone">Phone: 76 862 30 37</string>
+    <string name="f8_phone">Phone: 76 722 22 71</string>
+    <string name="f9_phone">Phone: 76 866 21 00</string>
+    <string name="f10_phone">Phone: 76 862 30 79</string>
+
+    <string name="f1_img_desc">Tivoli Restaurant</string>
+    <string name="f2_img_desc">Vis a Vis Restaurant</string>
+    <string name="f3_img_desc">Tradycja Restaurant</string>
+    <string name="f4_img_desc">Benvenuti in Italia Restaurant</string>
+    <string name="f5_img_desc">Don Giovanni Restaurant</string>
+    <string name="f6_img_desc">Efez Restaurant</string>
+    <string name="f7_img_desc">Dragon Oriental Bar</string>
+    <string name="f8_img_desc">Piastowska Inn</string>
+    <string name="f9_img_desc">Qubus Hotel Restaurant</string>
+    <string name="f10_img_desc">Rynek 10 Restaurant</string>
+
+    <string name="n1">Park</string>
+    <string name="n2">Palm House</string>
+    <string name="n3">Kaczawa River</string>
+    <string name="n4">Trees Avenue</string>
+    <string name="n5">Goat Pond</string>
+
+    <string name="n1_desc">First written sources about park come as early as from 1316 when duke Boleslaw III bought a huge fields nearby the river.
+        Developed over the years received today\'s outlook. Park is also popular place of sport and cultural events.</string>
+    <string name="n2_desc">It\’s been founded and built in 1898. Palm house has buildings and areas of above 1 hectare. It was badly affected by the flood in 1977.
+        Currently reconstructed and rebuild has free admission for everyone who wants to visit it.</string>
+    <string name="n3_desc">It springs from Kaczawskie Mountains near Kaczorów and flows through region with Legnica until it reaches Oder river where it empties.
+        Total length of the river is 98km (61mi). </string>
+    <string name="n4_desc">It’s a natural monument and historical avenue of London plane. Some trees come from 1844 when the avenue was created.
+        Plants grow to height of 30m and host many species of birds.</string>
+    <string name="n5_desc">It existed as early as in the Middle Ages when was a part of city defence system. Rebuilt over the ages, received today’s outlook in 1929.
+        It was partially destroyed during the flood in 1977. Recultivated in 2008 hosts many interesting plants and animals, mainly birds.</string>
+
+    <string name="n1_img_desc">Park</string>
+    <string name="n2_img_desc">Palm House</string>
+    <string name="n3_img_desc">Kaczawa River</string>
+    <string name="n4_img_desc">Trees Avenue</string>
+    <string name="n5_img_desc">Goat Pond</string>
+
+    <string name="t1">Swieradow – Zdroj</string>
+    <string name="t2">Szczawno - Zdroj</string>
+    <string name="t3">Bolkow city</string>
+    <string name="t4">Kowary city</string>
+    <string name="t5">Ksiaz castle</string>
+    <string name="t6">Klodzko city</string>
+    <string name="t7">Jelenia Gora</string>
+    <string name="t8">Szklarka Poreba</string>
+    <string name="t9">Table Mountains</string>
+    <string name="t10">Mysliborski Gorge</string>
+
+    <string name="t1_desc">A small town in south – west of Poland, nearby the border with Czech Republic. First written sources about this place come from 1524.
+        Known of mineral water springs. In 1899 great pump-room with spa was built on the hills. It offers mineral water, radon and mud bath treatments of rheumatism.
+        Fans of skiing will like this town for opened in 2008 gondola.</string>
+    <string name="t2_desc">A small town in south – west of Poland, 3km (2mi) from Walbrzych city. First written sources about it come from 1221.
+        Because of many mineral water springs present in the city – pump – room with spa was built in 1820.
+        Horse lovers will find this place attractive because of stud farms.</string>
+    <string name="t3_desc">A small town in south – west of Poland, at the Nysa Szalona River, in the Jawor country. First written sources come from 1276.
+        Known of the Bolkow castle and it’s ruins standing above the town. It was built in 13th century. Devastated by the Thirty Years War.</string>
+    <string name="t4_desc">A small town in south – west of Poland, 14km from Jelenia Gora. First mentioned in 1148.
+        Known of many mineral springs and sanatoriums for different diseases treatment. Fans of toys may note it for expanded miniature park showing
+        architectural monuments of the region.</string>
+    <string name="t5_desc">A large castle located nearby Walbrzych city. Main attraction of the Walbrzych and whole region. First sources about the castle come from 1263.
+        After the World War II used as a sanatorium and cultural place. Currently great part of it is avaiable for sightseeing. </string>
+    <string name="t6_desc">A small and old city in the south – west of Poland, in the Klodzko valey, on the Nysa river.
+        Received city rights in 1233, however first settlements come from as early as at least 1st century BC. Within ages being the part of different countries.
+        Known of large fortress located on the high rock above the city, gothic bridge, tunnels and many more attractions.</string>
+    <string name="t7_desc">A city in south – west of Poland, nearby Karkonosze Mountains. Received the city rights in 1288, being the important part of trade routes in those times.
+        Known of many historical attractions. Fans of sport will find it very attractive for aviation, cycling, canoo or hiking trail activities.</string>
+    <string name="t8_desc">A small town in the south – west of Poland, close to Jelenia Gora city. First written sources come from 1366.
+        Known as a great center of mountain hiking, cycling and skiing. There are also many sanatoriums for different diseases treatment.</string>
+    <string name="t9_desc">Part of Sudetes Mountains, are 42km mountain range. There’s a National Park located at the area of it.
+        Formed mainly of sandstone, contains many strange and interesting rock formations. Very pleasure place for walking.</string>
+    <string name="t10_desc">A nature reserve in the south – west of Poland, on the river Jawornik, part of Jawor county. A reserve was established in 1962.
+        With total area of 9.72 hectare. Famous and attractive walking destination, with a place to lighting up the fire.</string>
+
+    <string name="t1_img_desc">Swieradow – Zdroj</string>
+    <string name="t2_img_desc">Szczawno - Zdroj</string>
+    <string name="t3_img_desc">Bolkow castle</string>
+    <string name="t4_img_desc">Kowary city</string>
+    <string name="t5_img_desc">Ksiaz castle</string>
+    <string name="t6_img_desc">Klodzko city</string>
+    <string name="t7_img_desc">Jelenia Gora</string>
+    <string name="t8_img_desc">Szklarka Poreba</string>
+    <string name="t9_img_desc">Table Mountains</string>
+    <string name="t10_img_desc">Mysliborski Gorge</string>
+
+    <string name="legnica">Legnica</string>
+    <string name="stadium_thumbnail">Stadium thumbnail</string>
+    <string name="castle_thumbnail">Castle thumbnail</string>
+    <string name="cathedral_thumbnail">Cathedral thumbnail</string>
+    <string name="hospital_thumbnail">Hospital thumbnail</string>
+    <string name="marketplace_thumbnail">Marketplace thumbnail</string>
+    <string name="museum_thumbnail">Museum thumbnail</string>
+    <string name="park_thumbnail">Park thumbnail</string>
+    <string name="theatre_thumbnail">Theatre thumbnail</string>
+    <string name="shield">Shield</string>
+    <string name="stamp">Stamp</string>
+    <string name="stamp_maker">Stamp maker</string>
+
+    <string name="details_image">Detail image</string>
+    <string name="list_image">List image</string>
+    <string name="category_image">Category image</string>
+    <string name="back_list_button">Back to list button</string>
+    <string name="back_category_button">Back to category button</string>
+    <string name="list_button">List button</string>
+    <string name="enter_button">Enter button</string>
+    <string name="search_icon">Search icon</string>
+    <string name="details_dialog">Details dialog fragment</string>
+    <string name="rounded_shape">rectangle</string>
+</resources>
