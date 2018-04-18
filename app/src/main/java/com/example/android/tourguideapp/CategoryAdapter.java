@@ -9,7 +9,7 @@ import android.support.v4.app.FragmentPagerAdapter;
  * {@link CategoryAdapter} is a {@link FragmentPagerAdapter} that can provide the layout for
  * each list item based on a data source which is a list of {@link } objects.
  */
-public class CategoryAdapter extends FragmentPagerAdapter {
+class CategoryAdapter extends FragmentPagerAdapter {
 
     /**
      * Context of the app

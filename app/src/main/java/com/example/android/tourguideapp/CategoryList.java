@@ -1,6 +1,6 @@
 package com.example.android.tourguideapp;
 
-public class CategoryList {
+class CategoryList {
 
     /**
      * String resource ID for the head text of each category
