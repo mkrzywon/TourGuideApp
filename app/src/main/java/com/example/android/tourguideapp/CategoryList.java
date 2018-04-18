@@ -5,27 +5,27 @@ public class CategoryList {
     /**
      * String resource ID for the head text of each category
      */
-    private int mHeadTextId;
+    private final int mHeadTextId;
 
     /**
      * Image resource ID for the picture of each category
      */
-    private int mCategoryImageId;
+    private final int mCategoryImageId;
 
     /**
      * String resource ID for the description of each category
      */
-    private int mCategoryDescriptionId;
+    private final int mCategoryDescriptionId;
 
     /**
      * String resource ID for the description of playlist button
      */
-    private int mCategoryEnter;
+    private final int mCategoryEnter;
 
     /**
      * Image resource ID for the playlist ImageButton
      */
-    private int mCategoryButton;
+    private final int mCategoryButton;
 
     /**
      * Create a new CategoryList object.

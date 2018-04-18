@@ -21,19 +21,19 @@ public class ItemList implements Parcelable {
     /**
      * Image resource ID for the item
      */
-    private int mItemListImageId;
+    private final int mItemListImageId;
     /**
      * String resource ID for the item's name
      */
-    private int mItemNameId;
+    private final int mItemNameId;
     /**
      * String resource ID for the item's description
      */
-    private int mItemDescriptionId;
+    private final int mItemDescriptionId;
     /**
      * String resource ID for the item's image description
      */
-    private int mItemImageDescription;
+    private final int mItemImageDescription;
 
     /**
      * Create a new ItemList object.

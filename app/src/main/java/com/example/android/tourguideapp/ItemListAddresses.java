@@ -21,31 +21,31 @@ public class ItemListAddresses implements Parcelable {
     /**
      * Image resource ID for the item
      */
-    private int mItemListImageId;
+    private final int mItemListImageId;
     /**
      * String resource ID for the item's name
      */
-    private int mItemNameId;
+    private final int mItemNameId;
     /**
      * String resource ID for the item's image decription
      */
-    private int mItemImageDescription;
+    private final int mItemImageDescription;
     /**
      * String resource ID for the item's address
      */
-    private int mItemAddress;
+    private final int mItemAddress;
     /**
      * String resource ID for the item's webpage
      */
-    private int mItemWebpage;
+    private final int mItemWebpage;
     /**
      * String resource ID for the item's email address
      */
-    private int mItemEmail;
+    private final int mItemEmail;
     /**
      * String resource ID for the item's phone number
      */
-    private int mItemPhone;
+    private final int mItemPhone;
 
     /**
      * Create a new ItemListAddress object.

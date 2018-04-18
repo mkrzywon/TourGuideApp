@@ -59,7 +59,7 @@ public class CategoryCityFragment extends Fragment implements CategoryListAdapte
 
     // Custom onClickListener from CategoryListAdapter
     @Override
-    public void onButtonClickListener(int position) {
+    public void onButtonClickListener() {
 
         changeFragment(new ListCityFragment());
 

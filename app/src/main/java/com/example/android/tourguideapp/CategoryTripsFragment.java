@@ -59,7 +59,7 @@ public class CategoryTripsFragment extends Fragment implements CategoryListAdapt
 
     // Custom onClickListener from CategoryListAdapter
     @Override
-    public void onButtonClickListener(int position) {
+    public void onButtonClickListener() {
 
         changeFragment(new ListTripsFragment());
 

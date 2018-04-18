@@ -14,7 +14,7 @@ public class CategoryAdapter extends FragmentPagerAdapter {
     /**
      * Context of the app
      */
-    private Context mContext;
+    private final Context mContext;
 
     /**
      * Create a new {@link CategoryAdapter} object.

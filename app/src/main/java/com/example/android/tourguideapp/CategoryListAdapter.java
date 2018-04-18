@@ -110,7 +110,7 @@ public class CategoryListAdapter extends ArrayAdapter<CategoryList> {
                 public void onClick(View view) {
 
                     if (customListner != null) {
-                        customListner.onButtonClickListener(position);
+                        customListner.onButtonClickListener();
                     }
 
                     mMediaPlayer = MediaPlayer.create(getContext(), R.raw.ticket);
@@ -127,7 +127,7 @@ public class CategoryListAdapter extends ArrayAdapter<CategoryList> {
     // Custom listener for category enter button
     public interface CustomButtonListener {
 
-        void onButtonClickListener(int position);
+        void onButtonClickListener();
 
     }
 }

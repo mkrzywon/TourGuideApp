@@ -59,7 +59,7 @@ public class CategoryNatureFragment extends Fragment implements CategoryListAdap
 
     // Custom onClickListener from CategoryListAdapter
     @Override
-    public void onButtonClickListener(int position) {
+    public void onButtonClickListener() {
 
         changeFragment(new ListNatureFragment());
 
