@@ -33,6 +33,7 @@ public class CategoryAdapter extends FragmentPagerAdapter {
      */
     @Override
     public Fragment getItem(int position) {
+
         if (position == 0) {
             return new CategoryHistoryFragment();
         } else if (position == 1) {

@@ -160,30 +160,25 @@ public class DetailsFragment extends DialogFragment {
 
         lineCounter = detailsDescription.getLineCount();
 
-        if (lineCounter == 9) {
+        switch (lineCounter) {
 
-            detailsDescription.setLines(9);
-
-        } else if (lineCounter == 8) {
-
-            detailsDescription.setLines(8);
-
-        } else if (lineCounter == 7) {
-
-            detailsDescription.setLines(7);
-
-        } else if (lineCounter == 6) {
-
-            detailsDescription.setLines(6);
-
-        } else if (lineCounter == 5) {
-
-            detailsDescription.setLines(5);
-
-        } else {
-
-            detailsDescription.setLines(4);
-
+            case 9:
+                detailsDescription.setLines(9);
+                break;
+            case 8:
+                detailsDescription.setLines(8);
+                break;
+            case 7:
+                detailsDescription.setLines(7);
+                break;
+            case 6:
+                detailsDescription.setLines(6);
+                break;
+            case 5:
+                detailsDescription.setLines(5);
+                break;
+            default:
+                detailsDescription.setLines(4);
         }
     }
 
