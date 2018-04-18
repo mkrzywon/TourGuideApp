@@ -34,18 +34,23 @@ public class CategoryAdapter extends FragmentPagerAdapter {
     @Override
     public Fragment getItem(int position) {
 
-        if (position == 0) {
-            return new CategoryHistoryFragment();
-        } else if (position == 1) {
-            return new CategoryCityFragment();
-        } else if (position == 2) {
-            return new CategoryHotelsFragment();
-        } else if (position == 3) {
-            return new CategoryFoodFragment();
-        } else if (position == 4) {
-            return new CategoryNatureFragment();
-        } else {
-            return new CategoryTripsFragment();
+        switch (position) {
+
+            case 0:
+                return new CategoryHistoryFragment();
+            case 1:
+                return new CategoryCityFragment();
+            case 2:
+                return new CategoryHotelsFragment();
+            case 3:
+                return new CategoryFoodFragment();
+            case 4:
+                return new CategoryNatureFragment();
+            case 5:
+                return new CategoryTripsFragment();
+             default:
+                 return null;
+
         }
     }
 
@@ -59,18 +64,24 @@ public class CategoryAdapter extends FragmentPagerAdapter {
 
     @Override
     public CharSequence getPageTitle(int position) {
-        if (position == 0) {
-            return mContext.getString(R.string.category_history);
-        } else if (position == 1) {
-            return mContext.getString(R.string.category_city);
-        } else if (position == 2) {
-            return mContext.getString(R.string.category_accommodation);
-        } else if (position == 3) {
-            return mContext.getString(R.string.category_food);
-        } else if (position == 4) {
-            return mContext.getString(R.string.category_nature);
-        } else {
-            return mContext.getString(R.string.category_tours);
+
+        switch (position) {
+
+            case 0:
+                return mContext.getString(R.string.category_history);
+            case 1:
+                return mContext.getString(R.string.category_city);
+            case 2:
+                return mContext.getString(R.string.category_accommodation);
+            case 3:
+                return mContext.getString(R.string.category_food);
+            case 4:
+                return mContext.getString(R.string.category_nature);
+            case 5:
+                return mContext.getString(R.string.category_tours);
+            default:
+                return null;
+
         }
     }
 }
