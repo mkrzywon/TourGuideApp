@@ -51,7 +51,7 @@ public class CategoryHistoryFragment extends Fragment implements CategoryListAda
     }
 
     // This method replace the current fragment with the new one
-    public void changeFragment(Fragment fr) {
+    private void changeFragment(Fragment fr) {
 
         getChildFragmentManager().beginTransaction().replace(R.id.main, fr).addToBackStack(null).commit();
 

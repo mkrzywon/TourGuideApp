@@ -71,7 +71,7 @@ public class ItemListAddresses implements Parcelable {
     }
 
     //read and set saved values from parcel
-    public ItemListAddresses(Parcel parcel) {
+    private ItemListAddresses(Parcel parcel) {
 
         mItemListImageId = parcel.readInt();
         mItemNameId = parcel.readInt();

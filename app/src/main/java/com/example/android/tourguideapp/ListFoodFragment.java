@@ -20,13 +20,13 @@ import java.util.ArrayList;
  */
 public class ListFoodFragment extends Fragment {
 
-    public static final String KEY_IMAGE = "image";
-    public static final String KEY_NAME = "name";
-    public static final String KEY_IMG_DESC = "image_description";
-    public static final String KEY_ADDRESS = "address";
-    public static final String KEY_WEBPAGE = "www";
-    public static final String KEY_EMAIL = "email";
-    public static final String KEY_PHONE = "phone";
+    private static final String KEY_IMAGE = "image";
+    private static final String KEY_NAME = "name";
+    private static final String KEY_IMG_DESC = "image_description";
+    private static final String KEY_ADDRESS = "address";
+    private static final String KEY_WEBPAGE = "www";
+    private static final String KEY_EMAIL = "email";
+    private static final String KEY_PHONE = "phone";
 
     private MediaPlayer mMediaPlayer;
 
@@ -124,7 +124,7 @@ public class ListFoodFragment extends Fragment {
     }
 
     //This method returns to the previous fragment
-    public void onBackPressed() {
+    private void onBackPressed() {
 
         if (getFragmentManager().getBackStackEntryCount() > 0) {
             getFragmentManager().popBackStack();

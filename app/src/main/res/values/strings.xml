@@ -1,8 +1,7 @@
 <resources>
     <string name="app_name">TourGuideApp</string>
-
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tourguide">/tourguideapp</string>
+    <string name="tourguideapp">tourguideapp</string>
 
     <string name="category_history">History</string>
     <string name="category_city">City</string>
@@ -351,5 +350,4 @@
     <string name="enter_button">Enter button</string>
     <string name="search_icon">Search icon</string>
     <string name="details_dialog">Details dialog fragment</string>
-    <string name="rounded_shape">rectangle</string>
 </resources>

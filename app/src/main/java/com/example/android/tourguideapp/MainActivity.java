@@ -77,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     //This method sets components for the main view
-    public void setContent() {
+    private void setContent() {
 
         // Category button
         categoryButton.setOnClickListener(new View.OnClickListener() {
@@ -94,7 +94,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     //This method sets animations for components int he view
-    public void setAnimations() {
+    private void setAnimations() {
 
         // Animation for city name text
         ScaleAnimation cityNameAnimation = new ScaleAnimation(0f, 1f, 0f, 1f,

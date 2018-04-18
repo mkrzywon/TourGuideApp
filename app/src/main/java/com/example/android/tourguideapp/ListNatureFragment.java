@@ -20,10 +20,10 @@ import java.util.ArrayList;
  */
 public class ListNatureFragment extends Fragment {
 
-    public static final String KEY_IMAGE = "image";
-    public static final String KEY_NAME = "name";
-    public static final String KEY_DESC = "description";
-    public static final String KEY_IMG_DESC = "image_description";
+    private static final String KEY_IMAGE = "image";
+    private static final String KEY_NAME = "name";
+    private static final String KEY_DESC = "description";
+    private static final String KEY_IMG_DESC = "image_description";
 
     private MediaPlayer mMediaPlayer;
 
@@ -110,7 +110,7 @@ public class ListNatureFragment extends Fragment {
     }
 
     //This method returns to the previous fragment
-    public void onBackPressed() {
+    private void onBackPressed() {
 
         if (getFragmentManager().getBackStackEntryCount() > 0) {
             getFragmentManager().popBackStack();

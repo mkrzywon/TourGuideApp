@@ -23,10 +23,10 @@ import butterknife.ButterKnife;
  */
 public class DetailsFragment extends DialogFragment {
 
-    public static final String KEY_IMAGE = "image";
-    public static final String KEY_NAME = "name";
-    public static final String KEY_DESC = "description";
-    public static final String KEY_IMG_DESC = "image_description";
+    private static final String KEY_IMAGE = "image";
+    private static final String KEY_NAME = "name";
+    private static final String KEY_DESC = "description";
+    private static final String KEY_IMG_DESC = "image_description";
 
     @BindView(R.id.details_head_text)
     TextView detailsName;
@@ -94,7 +94,7 @@ public class DetailsFragment extends DialogFragment {
     }
 
     // This method sets the basic content for dialog fragment's window
-    public void setContent() {
+    private void setContent() {
 
         okButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -127,7 +127,7 @@ public class DetailsFragment extends DialogFragment {
         });
     }
 
-    public void setAnimations() {
+    private void setAnimations() {
 
         final TranslateAnimation ta = new TranslateAnimation(-10, 10, 0, 0);
         ta.setInterpolator(new BounceInterpolator());
@@ -140,7 +140,7 @@ public class DetailsFragment extends DialogFragment {
     }
 
     //This method sets the styles for different orientation modes
-    public void setOrientationChange() {
+    private void setOrientationChange() {
 
         orientationChange = getResources().getConfiguration().orientation;
 
@@ -156,7 +156,7 @@ public class DetailsFragment extends DialogFragment {
     }
 
     //This method sets the proper lines value for portrait orientation
-    public void setLinesDescriptionPortrait() {
+    private void setLinesDescriptionPortrait() {
 
         lineCounter = detailsDescription.getLineCount();
 
@@ -188,7 +188,7 @@ public class DetailsFragment extends DialogFragment {
     }
 
     // This method sets the proper lines value for landscape orientation
-    public void setLinesDescriptionLandscape() {
+    private void setLinesDescriptionLandscape() {
 
         lineCounter = detailsDescription.getLineCount();
 

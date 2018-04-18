@@ -24,15 +24,13 @@ import butterknife.ButterKnife;
  */
 public class DetailsAddressFragment extends DialogFragment {
 
-    public static final String KEY_IMAGE = "image";
-    public static final String KEY_NAME = "name";
-    public static final String KEY_IMG_DESC = "image_description";
-    public static final String KEY_ADDRESS = "address";
-    public static final String KEY_WEBPAGE = "www";
-    public static final String KEY_EMAIL = "email";
-    public static final String KEY_PHONE = "phone";
-
-    int orientationChange;
+    private static final String KEY_IMAGE = "image";
+    private static final String KEY_NAME = "name";
+    private static final String KEY_IMG_DESC = "image_description";
+    private static final String KEY_ADDRESS = "address";
+    private static final String KEY_WEBPAGE = "www";
+    private static final String KEY_EMAIL = "email";
+    private static final String KEY_PHONE = "phone";
 
     @BindView(R.id.details_head_text)
     TextView detailsName;
@@ -98,7 +96,7 @@ public class DetailsAddressFragment extends DialogFragment {
             detailsPhone.setText(mDetailsPhone);
 
             setContent();
-            seAnimations();
+            setAnimations();
 
         }
 
@@ -107,7 +105,7 @@ public class DetailsAddressFragment extends DialogFragment {
     }
 
     // This method sets the content
-    public void setContent() {
+    private void setContent() {
 
         //back to list button
         okButton.setOnClickListener(new View.OnClickListener() {
@@ -124,7 +122,7 @@ public class DetailsAddressFragment extends DialogFragment {
     }
 
     // This method sets animations for the view components
-    public void seAnimations() {
+    private void setAnimations() {
 
         final TranslateAnimation ta = new TranslateAnimation(-10, 10, 0, 0);
         ta.setInterpolator(new BounceInterpolator());
@@ -137,7 +135,9 @@ public class DetailsAddressFragment extends DialogFragment {
     }
 
     //This method sets the styles for different orientation modes
-    public void setOrientationChange() {
+    private void setOrientationChange() {
+
+        int orientationChange;
 
         orientationChange = getResources().getConfiguration().orientation;
 

@@ -27,11 +27,11 @@ public class ItemList implements Parcelable {
      */
     private int mItemNameId;
     /**
-     * String resource ID for the item's decription
+     * String resource ID for the item's description
      */
     private int mItemDescriptionId;
     /**
-     * String resource ID for the item's image decription
+     * String resource ID for the item's image description
      */
     private int mItemImageDescription;
 
@@ -53,7 +53,7 @@ public class ItemList implements Parcelable {
     }
 
     //read and set saved values from parcel
-    public ItemList(Parcel parcel) {
+    private ItemList(Parcel parcel) {
 
         mItemListImageId = parcel.readInt();
         mItemNameId = parcel.readInt();
