@@ -50,7 +50,7 @@ public class CategoryListAdapter extends ArrayAdapter<CategoryList> {
      * @param context    is the current context (i.e. Activity) that the adapter is being created in.
      * @param categories is the list of {@link CategoryList}s to be displayed.
      */
-    public CategoryListAdapter(Context context, List<CategoryList> categories) {
+    CategoryListAdapter(Context context, List<CategoryList> categories) {
         super(context, 0, categories);
     }
 
