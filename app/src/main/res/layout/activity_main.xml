@@ -22,7 +22,7 @@
 
     <ImageView
         android:id="@+id/castle_thumbnail"
-        style="@style/castle_thumbnail"
+        style="@style/stadium_thumbnail.castle_thumbnail"
         android:layout_toEndOf="@id/center_view"
         android:contentDescription="@string/castle_thumbnail"
         android:src="@drawable/legnica_castle_thumbnail" />
@@ -36,14 +36,14 @@
 
     <ImageView
         android:id="@+id/hospital_thumbnail"
-        style="@style/hospital_thumbnail"
+        style="@style/cathedral_thumbnail.hospital_thumbnail"
         android:layout_toEndOf="@id/center_view"
         android:contentDescription="@string/hospital_thumbnail"
         android:src="@drawable/legnica_hospital_thumbnail" />
 
     <ImageView
         android:id="@+id/marketplace_thumbnail"
-        style="@style/marketplace_thumbnail"
+        style="@style/cathedral_thumbnail.marketplace_thumbnail"
         android:layout_alignStart="@id/museum_thumbnail"
         android:contentDescription="@string/marketplace_thumbnail"
         android:src="@drawable/legnica_marketplace_thumbnail" />
@@ -63,7 +63,7 @@
 
     <ImageView
         android:id="@+id/theatre_thumbnail"
-        style="@style/theatre_thumbnail"
+        style="@style/park_thumbnail.theatre_thumbnail"
         android:layout_toEndOf="@id/center_view"
         android:contentDescription="@string/theatre_thumbnail"
         android:src="@drawable/legnica_theatre_thumbnail" />
@@ -76,7 +76,7 @@
 
     <TextView
         android:id="@+id/title_main"
-        style="@style/head_title"
+        style="@style/head_text.head_title"
         android:layout_below="@id/stadium_thumbnail"
         android:layout_marginTop="@dimen/standard"
         android:text="@string/tour_guide" />

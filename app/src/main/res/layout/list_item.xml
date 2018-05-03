@@ -15,7 +15,7 @@
 
     <TextView
         android:id="@+id/title_item"
-        style="@style/list_item_text"
+        style="@style/list_item_image.list_item_text"
         android:layout_weight="2"
         android:paddingEnd="@dimen/zero"
         android:paddingStart="@dimen/half" />

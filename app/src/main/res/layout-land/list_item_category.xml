@@ -16,7 +16,7 @@
 
         <ImageView
             android:id="@+id/category_image"
-            style="@style/list_item_category_image_landscape"
+            style="@style/list_item_category_image.list_item_category_image_landscape"
             android:layout_marginStart="@dimen/standard"
             android:layout_marginTop="@dimen/half"
             android:layout_weight="1"

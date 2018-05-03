@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    style="@style/details_addresses_main_scrollview"
+    style="@style/details_main_scrollview"
     android:fillViewport="true">
 
     <LinearLayout
@@ -18,19 +18,19 @@
 
             <ImageView
                 android:id="@+id/details_image"
-                style="@style/details_addresses_image"
+                style="@style/details_image"
                 android:layout_marginTop="@dimen/half"
                 android:adjustViewBounds="true"
                 android:contentDescription="@string/details_image" />
 
             <TextView
                 android:id="@+id/image_description"
-                style="@style/details_addresses_image_description_landscape" />
+                style="@style/details_image_description" />
 
         </LinearLayout>
 
         <LinearLayout
-            style="@style/details_addresses_description_layout_landscape"
+            style="@style/details_description_layout_landscape"
             android:layout_marginEnd="@dimen/standard"
             android:layout_marginStart="@dimen/half"
             android:layout_marginTop="@dimen/standard"
@@ -38,18 +38,18 @@
 
             <TextView
                 android:id="@+id/details_head_text"
-                style="@style/details_addresses_head_text_landscape"
+                style="@style/details_head_text"
                 android:layout_marginBottom="@dimen/standard" />
 
             <TextView
                 android:id="@+id/address"
-                style="@style/details_addresses_description_item"
+                style="@style/details_description.details_addresses_description_item"
                 android:drawablePadding="@dimen/quarter"
                 android:drawableStart="@drawable/notebook" />
 
             <TextView
                 android:id="@+id/webpage"
-                style="@style/details_addresses_description_item"
+                style="@style/details_description.details_addresses_description_item"
                 android:layout_marginTop="@dimen/quarter"
                 android:autoLink="web"
                 android:drawablePadding="@dimen/quarter"
@@ -58,7 +58,7 @@
 
             <TextView
                 android:id="@+id/email"
-                style="@style/details_addresses_description_item"
+                style="@style/details_description.details_addresses_description_item"
                 android:layout_marginTop="@dimen/quarter"
                 android:autoLink="email"
                 android:drawablePadding="@dimen/quarter"
@@ -67,7 +67,7 @@
 
             <TextView
                 android:id="@+id/phone"
-                style="@style/details_addresses_description_item"
+                style="@style/details_description.details_addresses_description_item"
                 android:layout_marginTop="@dimen/quarter"
                 android:autoLink="phone"
                 android:drawablePadding="@dimen/quarter"
@@ -76,7 +76,7 @@
 
             <ImageButton
                 android:id="@+id/back_list_button"
-                style="@style/details_addresses_back_button"
+                style="@style/details_back_button"
                 android:layout_marginBottom="@dimen/standard"
                 android:layout_marginTop="@dimen/standard"
                 android:contentDescription="@string/back_list_button"

@@ -43,9 +43,7 @@
         <item name="android:orientation">vertical</item>
     </style>
 
-    <style name="activity_main_landscape">
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">match_parent</item>
+    <style name="activity_main_portrait.activity_main_landscape">
         <item name="android:orientation">horizontal</item>
     </style>
 
@@ -59,15 +57,8 @@
         <item name="android:textStyle">bold</item>
     </style>
 
-    <style name="head_title">
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:fontFamily">@font/komika</item>
-        <item name="android:textColor">@color/black</item>
-        <item name="android:gravity">center_horizontal</item>
+    <style name="head_text.head_title">
         <item name="android:background">@drawable/rounded_shape</item>
-        <item name="android:textSize">@dimen/text_main_activity</item>
-        <item name="android:textStyle">bold</item>
     </style>
 
     <style name="view_container">
@@ -84,10 +75,7 @@
         <item name="android:rotation">@dimen/rotation_stadium_thumb</item>
     </style>
 
-    <style name="castle_thumbnail">
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_centerVertical">true</item>
+    <style name="stadium_thumbnail.castle_thumbnail">
         <item name="android:rotation">@dimen/rotation_castle_thumb</item>
     </style>
 
@@ -98,16 +86,12 @@
         <item name="android:rotation">@dimen/rotation_cathedral_thumb</item>
     </style>
 
-    <style name="hospital_thumbnail">
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">wrap_content</item>
+    <style name="cathedral_thumbnail.hospital_thumbnail">
         <item name="android:layout_above">@id/castle_thumbnail</item>
         <item name="android:rotation">@dimen/rotation_hospital_thumb</item>
     </style>
 
-    <style name="marketplace_thumbnail">
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">wrap_content</item>
+    <style name="cathedral_thumbnail.marketplace_thumbnail">
         <item name="android:layout_above">@id/center_view</item>
         <item name="android:rotation">@dimen/rotation_marketplace_thumb</item>
     </style>
@@ -126,9 +110,7 @@
         <item name="android:rotation">@dimen/rotation_park_thumb</item>
     </style>
 
-    <style name="theatre_thumbnail">
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">wrap_content</item>
+    <style name="park_thumbnail.theatre_thumbnail">
         <item name="android:layout_below">@id/castle_thumbnail</item>
         <item name="android:rotation">@dimen/rotation_theatre_thumb</item>
     </style>
@@ -176,26 +158,23 @@
     </style>
 
     <!-- Styles for details_for_lists files -->
-    <style name="details_lists_main_scrollview">
+    <style name="details_main_scrollview">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">match_parent</item>
         <item name="android:orientation">vertical</item>
     </style>
 
-    <style name="details_lists_image_layout_landscape">
-        <item name="android:layout_width">@dimen/zero</item>
-        <item name="android:layout_height">match_parent</item>
+    <style name="details_description_layout_landscape.details_lists_image_layout_landscape">
         <item name="android:gravity">center_vertical</item>
-        <item name="android:orientation">vertical</item>
     </style>
 
-    <style name="details_lists_description_layout_landscape">
+    <style name="details_description_layout_landscape">
         <item name="android:layout_width">@dimen/zero</item>
         <item name="android:layout_height">match_parent</item>
         <item name="android:orientation">vertical</item>
     </style>
 
-    <style name="details_lists_head_text_portrait">
+    <style name="details_head_text">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:fontFamily">@font/komika</item>
@@ -205,17 +184,7 @@
         <item name="android:textStyle">bold</item>
     </style>
 
-    <style name="details_lists_head_text_landscape">
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:fontFamily">@font/komika</item>
-        <item name="android:textColor">@color/black</item>
-        <item name="android:gravity">center_horizontal</item>
-        <item name="android:textSize">@dimen/details_head_text</item>
-        <item name="android:textStyle">bold</item>
-    </style>
-
-    <style name="details_lists_image">
+    <style name="details_image">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_gravity">center_horizontal</item>
@@ -223,16 +192,7 @@
         <item name="android:foreground">@drawable/rounded_fg_details</item>
     </style>
 
-    <style name="details_lists_image_description_portrait">
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:fontFamily">@font/komika</item>
-        <item name="android:textColor">@color/black</item>
-        <item name="android:gravity">center_horizontal</item>
-        <item name="android:textStyle">bold</item>
-    </style>
-
-    <style name="details_lists_image_description_landscape">
+    <style name="details_image_description">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:fontFamily">@font/komika</item>
@@ -249,7 +209,7 @@
         <item name="android:textSize">@dimen/description_dialog_fragment</item>
     </style>
 
-    <style name="details_lists_back_button">
+    <style name="details_back_button">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_gravity">bottom|center_horizontal</item>
@@ -257,84 +217,15 @@
     </style>
 
     <!-- Styles for details_for_lists_addresses files -->
-    <style name="details_addresses_main_scrollview">
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">match_parent</item>
-        <item name="android:orientation">vertical</item>
-    </style>
-
     <style name="details_addresses_image_layout_landscape">
         <item name="android:layout_width">@dimen/zero</item>
         <item name="android:layout_height">match_parent</item>
         <item name="android:orientation">vertical</item>
     </style>
 
-    <style name="details_addresses_description_layout_landscape">
-        <item name="android:layout_width">@dimen/zero</item>
-        <item name="android:layout_height">match_parent</item>
-        <item name="android:orientation">vertical</item>
-    </style>
-
-    <style name="details_addresses_head_text_portrait">
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:fontFamily">@font/komika</item>
-        <item name="android:textColor">@color/black</item>
-        <item name="android:gravity">center_horizontal</item>
-        <item name="android:textSize">@dimen/details_head_text</item>
-        <item name="android:textStyle">bold</item>
-    </style>
-
-    <style name="details_addresses_head_text_landscape">
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:fontFamily">@font/komika</item>
-        <item name="android:textColor">@color/black</item>
-        <item name="android:gravity">center_horizontal</item>
-        <item name="android:textSize">@dimen/details_head_text</item>
-        <item name="android:textStyle">bold</item>
-    </style>
-
-    <style name="details_addresses_image">
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_gravity">center_horizontal</item>
-        <item name="android:background">@drawable/rounded_shape</item>
-        <item name="android:foreground">@drawable/rounded_fg_details</item>
-    </style>
-
-    <style name="details_addresses_image_description_portrait">
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:fontFamily">@font/komika</item>
-        <item name="android:textColor">@color/black</item>
-        <item name="android:gravity">center_horizontal</item>
-        <item name="android:textStyle">bold</item>
-    </style>
-
-    <style name="details_addresses_image_description_landscape">
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:fontFamily">@font/komika</item>
-        <item name="android:textColor">@color/black</item>
-        <item name="android:gravity">center_horizontal</item>
-        <item name="android:textStyle">bold</item>
-    </style>
-
-    <style name="details_addresses_description_item">
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:fontFamily">@font/komika</item>
-        <item name="android:textColor">@color/black</item>
+    <style name="details_description.details_addresses_description_item">
         <item name="android:gravity">center_vertical</item>
         <item name="android:textSize">@dimen/dialog_fragment_address_data</item>
-    </style>
-
-    <style name="details_addresses_back_button">
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_gravity">bottom|center_horizontal</item>
-        <item name="android:background">@color/transparent</item>
     </style>
 
     <!-- Styles for item_listview file -->
@@ -363,12 +254,9 @@
         <item name="android:layout_gravity">center_vertical</item>
     </style>
 
-    <style name="list_item_text">
-        <item name="android:layout_width">@dimen/zero</item>
-        <item name="android:layout_height">wrap_content</item>
+    <style name="list_item_image.list_item_text">
         <item name="android:fontFamily">@font/komika</item>
         <item name="android:textColor">@color/black</item>
-        <item name="android:layout_gravity">center_vertical</item>
         <item name="android:textSize">@dimen/item_list_text_height</item>
         <item name="android:textStyle">bold</item>
     </style>
@@ -398,12 +286,8 @@
         <item name="android:foreground">@drawable/rounded_fg</item>
     </style>
 
-    <style name="list_item_category_image_landscape">
+    <style name="list_item_category_image.list_item_category_image_landscape">
         <item name="android:layout_width">@dimen/zero</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_gravity">center_horizontal</item>
-        <item name="android:background">@drawable/rounded_shape</item>
-        <item name="android:foreground">@drawable/rounded_fg</item>
     </style>
 
     <style name="list_item_category_description">

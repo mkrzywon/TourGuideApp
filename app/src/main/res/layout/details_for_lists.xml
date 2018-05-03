@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    style="@style/details_lists_main_scrollview"
+    style="@style/details_main_scrollview"
     android:fillViewport="true">
 
     <LinearLayout
@@ -10,19 +10,19 @@
 
         <TextView
             android:id="@+id/details_head_text"
-            style="@style/details_lists_head_text_portrait"
+            style="@style/details_head_text"
             android:layout_marginTop="@dimen/standard" />
 
         <ImageView
             android:id="@+id/details_image"
-            style="@style/details_lists_image"
+            style="@style/details_image"
             android:layout_marginTop="@dimen/half"
             android:adjustViewBounds="true"
             android:contentDescription="@string/details_image" />
 
         <TextView
             android:id="@+id/image_description"
-            style="@style/details_lists_image_description_portrait" />
+            style="@style/details_image_description" />
 
         <TextView
             android:id="@+id/details_description"
@@ -33,7 +33,7 @@
 
         <ImageButton
             android:id="@+id/back_list_button"
-            style="@style/details_lists_back_button"
+            style="@style/details_back_button"
             android:layout_marginBottom="@dimen/standard"
             android:layout_marginTop="@dimen/standard"
             android:contentDescription="@string/back_list_button"
